@@ -60,6 +60,16 @@
         android:layout_alignLeft="@+id/QuestionButton"
         android:layout_below="@+id/QuestionButton"
         android:layout_marginTop="22dp"
-        android:text="Total  Number of Questions =" />
+        />
 
+        <TextView
+        android:id="@+id/TotalScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TotalQuestions"
+        android:layout_below="@+id/TotalQuestions"
+        android:layout_marginTop="22dp"
+        />
+    
+    
 </RelativeLayout>
